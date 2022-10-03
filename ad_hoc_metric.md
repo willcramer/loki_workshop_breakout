@@ -63,7 +63,7 @@ Return to your Grafana instance, wait for 2 minutes while the instance auto-rest
 5. In Panel tab on the right, select the Worldmap panel as the visualisation,
 6. Set panel title to `Total requests per country` and save the panel.
 
-The Worldmap panel will be replaced by the Geomap panel in the future. If you want to use the Geomap instead, make sure to add a "Series to rows" transformation to the query. You will need to set the location to 'lookup' and the lookup field to 'Metric'. Finally, set the layer type to ArcGis MapServer in the base layer section. An example of a Geomap will be available when you import the full dashboard in the next sections.  
+The Worldmap panel will be replaced by the Geomap panel in the future. If you want to use the Geomap instead, make sure to add a "Series to rows" transformation to the query. In the panel settings, after adding a new map layer, you will need to set the location to 'lookup' and the lookup field to 'Metric'. Finally, set the layer type to ArcGis MapServer in the base layer section. An example of a Geomap will be available when you import the full dashboard in the next sections.  
 
 ### Re-writing log lines
 
